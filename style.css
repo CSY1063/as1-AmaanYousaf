@@ -32,6 +32,9 @@ p{
     color: var(--color-black);
 }
 
+.project{
+    margin-bottom: 4rem;
+}
 .heading-primary{
     font-size: 2.5rem;
     font-weight: 300;
@@ -40,7 +43,7 @@ p{
     margin-bottom: 1rem;
 }
 .heading-secondary{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 300;
     line-height: 1;
     color: var(--primary-color);
@@ -48,6 +51,15 @@ p{
 
 }
 
+.heading-tertiary{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+
+
+}
 /*Header*/
 
 header{
@@ -168,3 +180,15 @@ margin-bottom: 3rem;
 
 
 }
+
+/*Project*/
+ .project{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 2rem;
+ }
+ 
+ .project img{
+height: 100%;
+width: 100%;
+ }
