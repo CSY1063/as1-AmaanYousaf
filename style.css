@@ -192,3 +192,48 @@ margin-bottom: 3rem;
 height: 100%;
 width: 100%;
  }
+
+/*Contact*/
+
+ .contact-form{
+    width: 80%;
+ }
+
+ .contact-form .row{
+    width: 100%;
+    display: flex;
+ }
+
+ .input50{
+    width: 50%;
+    margin: 0 10px;
+ }
+
+ .input100{
+    width: 100%;
+    margin: 0 10px;
+ }
+
+ .contact-form .row input,
+ .contact-form .row textarea{
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: var(--color-black);
+    padding: 10px;
+    outline: none;
+    margin: 10px 0;
+ }
+
+.contact-forum .row textarea{
+
+height: 150px;
+}
+
+.contact-form .row input[type="Submit"] {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    border: 0;
+    cursor: pointer;
+}
