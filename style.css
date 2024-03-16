@@ -39,6 +39,14 @@ p{
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
+.heading-secondary{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+
+}
 
 /*Header*/
 
@@ -129,4 +137,34 @@ header{
     background-color: var(--primary-color);
     padding: 0.5rem 1.5rem;
     margin-top: 4rem;
+}
+
+/*Services*/
+
+.description{
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.card{
+margin-bottom: 2rem;
+}
+
+.card .icon img{
+width: 7rem;
+height: auto;
+margin-bottom: 3rem;
+
+
 }
